@@ -28,7 +28,13 @@ export class CadastroFilmesComponent implements OnInit {
   }
 
   salvar(): void{
+    if(this.cadastro.valid){
+      alert('Sucesso!!\n\n' + JSON.stringify(this.cadastro.value, null, 4));
+    }
+  }
 
+  reiniciarForm():void {
+    this.cadastro.reset();
   }
 
 }
