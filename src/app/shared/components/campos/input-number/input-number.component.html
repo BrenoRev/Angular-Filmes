@@ -18,12 +18,12 @@
 
   <mat-error 
   *ngIf="validacao.hasErrorValidar(formControl,'min')">
-  Valor mínimo é 0
+  Valor mínimo é {{validacao.lengthValidar(formControl, 'min')}}
   </mat-error>
 
   <mat-error
    *ngIf="validacao.hasErrorValidar(formControl,'max')">
-   Valor máximo é 10
+   Valor máximo é {{validacao.lengthValidar(formControl, 'max')}}
   </mat-error>
 
 </mat-form-field>
