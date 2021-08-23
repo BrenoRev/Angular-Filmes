@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Filme } from '../shared/models/filme';
 
 const url = 'http://localhost:3000/filmes/';
 
@@ -11,8 +12,8 @@ export class FilmesService {
 
   constructor(private http: HttpClient) { }
 
-  salvar(filme: any): Observable<any>{
-    return this.http.post<any>(url, filme);
+  salvar(filme: Filme): Observable<Filme>{
+    return this.http.post<Filme>(url, filme);
   }
 
 }

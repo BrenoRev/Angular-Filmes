@@ -1,5 +1,6 @@
 {
-  "filmes": [{
+  "filmes": [
+    {
       "id": 1,
       "titulo": "MIB: Homens de Preto",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
@@ -88,6 +89,16 @@
       "nota": 7.5,
       "urlIMDb": "https://www.imdb.com/title/tt6146586/",
       "genero": "Açao"
+    },
+    {
+      "titulo": "Jolt: Fúria fatal",
+      "urlFoto": "https://www.imdb.com/title/tt10228134/mediaviewer/rm2256403201/?ref_=tt_ov_i",
+      "dtLancamento": "2021-08-12T03:00:00.000Z",
+      "descricao": "Um gorila com um problema de controle de raiva que ela controla com a ajuda de um colete. Depois que o garoto pelo qual ela se apaixonou é assassinado, entra em um tumulto para encontrar o assassino.",
+      "nota": 5.5,
+      "urlIMDb": "https://www.imdb.com/title/tt10228134/?ref_=hm_stp_pvs_piv_tt_i_3",
+      "genero": "Ação",
+      "id": 10
     }
   ]
 }
