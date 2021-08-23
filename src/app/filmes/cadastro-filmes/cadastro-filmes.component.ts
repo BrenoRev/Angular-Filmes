@@ -88,7 +88,15 @@ export class CadastroFilmesComponent implements OnInit {
       })
     },
     () => {
-      alert("Erro ao salvar...");
+      const config = {
+        data: {
+          titulo: 'Erro ao salvar o registro!',
+          descricao: 'Não conseguimos salvar o seu registro, tente novamente mais tarde.',
+          corBtnSucesso: 'warn',
+          btnSucesso: 'Fechar'
+        } as Alerta
+      };
+      this.dialog.open(AlertaComponent, config);
     });
   }
 }
