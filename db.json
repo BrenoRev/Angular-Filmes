@@ -99,6 +99,26 @@
       "urlIMDb": "https://www.imdb.com/title/tt10228134/?ref_=hm_stp_pvs_piv_tt_i_3",
       "genero": "Ação",
       "id": 10
+    },
+    {
+      "titulo": "Free Guy: Assumindo o Controle",
+      "urlFoto": "https://www.imdb.com/title/tt6264654/mediaviewer/rm2006762753/?ref_=tt_ov_i",
+      "dtLancamento": "2021-08-10T03:00:00.000Z",
+      "descricao": "Um funcionário do banco descobre que ele é, na verdade, um personagem em um videogame.",
+      "nota": 7.6,
+      "urlIMDb": "https://www.imdb.com/title/tt6264654/?ref_=hm_inth_tt_i_2",
+      "genero": "Comédia",
+      "id": 11
+    },
+    {
+      "titulo": "O Esquadrão Suicida",
+      "urlFoto": "https://www.imdb.com/title/tt6334354/mediaviewer/rm2855063297/?ref_=tt_ov_i",
+      "dtLancamento": "2021-08-04T03:00:00.000Z",
+      "descricao": "Supervilões Harley Quinn, Bloodsport, Peacemaker e uma colecção de reclusos malucos na prisão Belle Reve juntam-se à Task Force X super-secreta e super sombria, ao serem deixados na remota ilha de Corto Maltese, infundida no inimigo.",
+      "nota": 7.4,
+      "urlIMDb": "https://www.imdb.com/title/tt6334354/?ref_=hm_inth_tt_i_1",
+      "genero": "Ação",
+      "id": 12
     }
   ]
 }
