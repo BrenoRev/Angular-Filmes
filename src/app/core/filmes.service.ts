@@ -20,6 +20,8 @@ export class FilmesService {
     let httpParams = new HttpParams();
     httpParams = httpParams.set('_page', pagina.toString());
     httpParams = httpParams.set('_limit', quantidade.toString());
+    httpParams = httpParams.set('_sort', 'id');
+    httpParams = httpParams.set('_order', 'desc');
     if(texto){
       httpParams = httpParams.set('q', texto);
     }
