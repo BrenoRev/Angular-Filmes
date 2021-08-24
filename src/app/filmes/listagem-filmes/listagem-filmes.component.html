@@ -31,7 +31,9 @@
 
 <div class="home-content" 
 infiniteScroll
-(scrolled)="onScroll()">
+(scrolled)="onScroll()" 
+*ngIf="filmes.length; 
+else semregistro">
 
   <mat-card class="home-card" 
   infiniteScroll
@@ -56,3 +58,9 @@ infiniteScroll
   </mat-card>
 
 </div>
+
+<ng-template #semregistro>
+  <h1 class="full-width main-div" style="font-size: 1.6em">
+    Nenhum filme encontrado!
+  </h1>
+</ng-template>

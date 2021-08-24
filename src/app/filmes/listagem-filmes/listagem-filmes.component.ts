@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { debounceTime } from 'rxjs/operators'
 import { FilmesService } from 'src/app/core/filmes.service';
 import { ConfigParams } from 'src/app/shared/models/config-params';
 import { Filme } from 'src/app/shared/models/filme';
@@ -39,7 +40,9 @@ export class ListagemFilmesComponent implements OnInit {
       }
     );
 
-      this.filtrosListagem.get('texto').valueChanges.subscribe((val: string) => {
+      this.filtrosListagem.get('texto').valueChanges
+      .pipe(debounceTime(500))
+      .subscribe((val: string) => {
         this.config.pesquisa = val;
         this.resetarConsulta();
       });
