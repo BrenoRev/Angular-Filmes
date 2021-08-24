@@ -11,6 +11,8 @@ import { Filme } from 'src/app/shared/models/filme';
 })
 export class ListagemFilmesComponent implements OnInit {
 
+  readonly semFoto = 'https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif/image';
+
   config: ConfigParams = {
     pagina: 0,
     limite: 4
@@ -28,6 +30,7 @@ export class ListagemFilmesComponent implements OnInit {
               private fb: FormBuilder) { }
 
   ngOnInit() {
+  
 
     this.filtrosListagem = this.fb.group(
       {

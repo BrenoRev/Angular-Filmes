@@ -42,14 +42,14 @@ infiniteScroll
       <mat-card-title>{{filme.titulo}}</mat-card-title>
       <mat-card-subtitle>{{filme.genero}}</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image [src]="filme.urlFoto" alt="Foto do cartaz do filme">
+    <img mat-card-image [src]="filme.urlFoto || semFoto" alt="Foto do cartaz do filme">
     <mat-card-content>
       <p>
         {{filme.descricao}}
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button color="accent" mat-raised-button>Ver</button>
+      <button class="bottom" color="accent" mat-raised-button>Ver</button>
     </mat-card-actions>
   </mat-card>
 

@@ -9,14 +9,23 @@
 
   }
 }
+.mat-card-content > p {
+  height: 80px;
+}
+
 
 .mat-card-image{
   width: calc(100% - 200px);
   margin: auto;
   display: block;
   margin-bottom: 1em;
+
 }
 
+.bottom{
+  position: absolute;
+  bottom: 5px;
+}
 .filtro-listagem{
   width: calc(100% - 50px)
 }
