@@ -44,9 +44,11 @@ infiniteScroll
     </mat-card-header>
     <img mat-card-image [src]="filme.urlFoto || semFoto" alt="Foto do cartaz do filme">
     <mat-card-content>
-      <p>
-        {{filme.descricao}}
+      <p class="pular">
+        {{filme.descricao || 'Nenhuma descricao informada.'}}
       </p>
+      <br>
+      <br>
     </mat-card-content>
     <mat-card-actions>
       <button class="bottom" color="accent" mat-raised-button>Ver</button>
