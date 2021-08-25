@@ -15,12 +15,10 @@
   <mat-card>
     <mat-card-actions>
       <button class="margin10" color="accent" mat-raised-button>Editar</button>
-      <button class="margin10" color="warn" mat-raised-button>Excluir</button>
+      <button class="margin10" (click)="excluir()" color="warn" mat-raised-button>Excluir</button>
       <a class="link" [href]="filme.urlIMDb" target="_blank">Ir para o IMDb</a>
     </mat-card-actions>
   </mat-card>
-  
- 
 </mat-list>
 
 </div>
