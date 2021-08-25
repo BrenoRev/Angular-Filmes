@@ -1,0 +1,25 @@
+<body>
+  <div id= "centralizar">
+<mat-list *ngIf="filme; else semregistro">
+  <mat-list-item >Título: {{filme.titulo}}</mat-list-item>
+  <br>
+  <mat-list-item >Data de lançamento: {{filme.dtLancamento | date: 'dd/MM/yyyy'}} </mat-list-item>
+  <br>
+  <mat-list-item >Gênero: {{filme.genero}}</mat-list-item>
+  <br>
+  <mat-list-item >Descrição: {{filme.descricao}}</mat-list-item>
+  <br>
+  <mat-list-item >Nota: {{filme.nota}}</mat-list-item>
+  <br>
+  <mat-list-item><a class="link" [href]="filme.urlIMDb" target="_blank">Ir para o IMDb</a></mat-list-item>
+  <img mat-card-image [src]="filme.urlFoto || semFoto">
+</mat-list>
+</div>
+</body>
+
+<ng-template #semregistro>
+  <h1 class="full-width main-div" style="font-size: 1.6em">
+    <br>
+    Nenhum filme encontrado!
+  </h1>
+</ng-template>
