@@ -81,7 +81,7 @@
       "genero": "Açao"
     },
     {
-      "titulo": "Guerra nas Estrelas",
+      "titulo": "Guerra nas Estrelas5",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
       "dtLancamento": "2017-03-16T03:00:00.000Z",
       "descricao": "Luke Skywalker une forças com um cabaleiro Jedi, um arrogante piloto é dois dróides para salvar a galaxia enquanto tentam salvar a princesa Leia do misterioso Darth Vader.",
@@ -89,16 +89,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt0076759/",
       "genero": "Ação",
       "id": 10
-    },
-    {
-      "titulo": "Vingadores: Ultimato5",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2019-04-25T03:00:00.000Z",
-      "descricao": "After the devastating events of Vingadores: Guerra Infinita (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-      "nota": 8.5,
-      "urlIMDb": "https://www.imdb.com/title/tt4154796/",
-      "genero": "Aventura",
-      "id": 11
     }
   ]
 }

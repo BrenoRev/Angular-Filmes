@@ -8,10 +8,7 @@
   }
 
   #centralizar{
-
-
-    height: 100%;
-    width: 30%;
+    width: 80%;
     margin:auto;
   }
   .link{
@@ -43,23 +40,22 @@
     .mat-card-image{
         float: top;
         position: absolute;
-        right: 1;
-        width: 30%;
-        height: 50%;
+        right: 0;
         border-radius: 30px;
         opacity: 15%;
     }
 }
 
-  @media screen and (min-width: 1920px) {
+  @media screen and (max-width: 1920px) {
+    .mat-card{
+      width: max-content;
+    }
     .mat-card-image{
-        float: top;
-        position: absolute;
-        right: 1;
-        width: 30%;
-        height: 50%;
-        border-radius: 30px;
-        opacity: 15%;
+      float: top;
+      position: absolute;
+      right: 0;
+      border-radius: 30px;
+      opacity: 15%;
     }
 }
   
